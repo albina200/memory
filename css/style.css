@@ -103,7 +103,7 @@ legend {
     text-align: center;
     text-transform: uppercase;
     color: #6e916e;
-    /* background-color: crimson; */
+    font-family: 'Indie Flower', cursive;
 }
 
 .fieldset__elements {
@@ -118,6 +118,7 @@ legend {
 label {
     font-size: 20px;
     line-height: 25px;
+    font-family: 'Indie Flower', cursive;
 }
 
 select {
@@ -130,6 +131,10 @@ select {
     padding: 5px;
 }
 
+select option {
+    font-family: 'Indie Flower', cursive;
+}
+
 button {
     background-color: darkseagreen;
     height: 50px;
@@ -137,7 +142,7 @@ button {
     color: white;
     width: 80%;
     transition: 0.2s;
-
+    font-family: 'Indie Flower', cursive;
     font-size: 16px;
     line-height: 20px;
     text-transform: uppercase;
@@ -193,25 +198,19 @@ button:hover {
 .info p {
     font-size: 32px;
     text-transform: uppercase;
+    font-family: 'Indie Flower', cursive;
 }
 
 .info button {
     letter-spacing: 2px;
     font-size: 18px;
+    font-family: 'Indie Flower', cursive;
 }
 
 .time {
     width: 200px;
     height: 40px;
     border-radius: 10px;
-
-    /* background-color: #6e916e;
-    position: absolute;
-    top: 0;
-    left: -120px;
-    background-color: #fffffffa;
-    border: 2px solid #6e916e; */
-
     top: 0;
     position: fixed;
     background-color: #ffffffe5;
@@ -224,8 +223,10 @@ button:hover {
 
 .time p {
     font-size: 20px;
+    font-family: 'Indie Flower', cursive;
 }
 
 .time span {
     font-size: 45px;
+    font-family: 'Indie Flower', cursive;
 }
