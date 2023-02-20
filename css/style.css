@@ -1,5 +1,5 @@
 body {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Shantell Sans', cursive;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,7 +118,6 @@ legend {
 label {
     font-size: 20px;
     line-height: 25px;
-    font-family: 'Indie Flower', cursive;
 }
 
 select {
@@ -126,13 +125,13 @@ select {
     height: 45px;
     border: 2px solid darkseagreen;
     border-radius: 10px;
-    font-family: 'Indie Flower', cursive;
     font-size: 17px;
     padding: 5px;
+    font-family: 'Shantell Sans', cursive;
 }
 
 select option {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Shantell Sans', cursive;
 }
 
 button {
@@ -142,10 +141,10 @@ button {
     color: white;
     width: 80%;
     transition: 0.2s;
-    font-family: 'Indie Flower', cursive;
     font-size: 16px;
     line-height: 20px;
     text-transform: uppercase;
+    font-family: 'Shantell Sans', cursive;
 }
 
 button:hover {
@@ -198,13 +197,12 @@ button:hover {
 .info p {
     font-size: 32px;
     text-transform: uppercase;
-    font-family: 'Indie Flower', cursive;
 }
 
 .info button {
     letter-spacing: 2px;
     font-size: 18px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Shantell Sans', cursive;
 }
 
 .time {
@@ -223,10 +221,8 @@ button:hover {
 
 .time p {
     font-size: 20px;
-    font-family: 'Indie Flower', cursive;
 }
 
 .time span {
-    font-size: 45px;
-    font-family: 'Indie Flower', cursive;
+    font-size: 35px;
 }
