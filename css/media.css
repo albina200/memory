@@ -1,0 +1,161 @@
+@media (max-width:768px) {
+    .time {
+        /* width: 160px; */
+        height: 40px;
+    }
+
+    .time span {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width:640px) {
+    .menu {
+        width: 80vw;
+    }
+
+    legend {
+        font-size: 37px;
+    }
+
+    .info {
+        width: 80vw;
+    }
+}
+
+@media (max-width:500px) {
+    .menu {
+        height: 60vw;
+    }
+
+    legend {
+        font-size: 33px;
+    }
+
+
+    label {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    select {
+        width: 94%;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    button {
+        width: 94%;
+        height: 45px;
+    }
+
+    .info p {
+        font-size: 25px;
+    }
+
+    .info button {
+        width: 90%;
+        font-size: 15px;
+        height: 40px;
+    }
+}
+
+@media (max-width:430px) {
+    .fieldset__elements {
+        height: 100px;
+    }
+
+    label {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    button {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .info {
+        height: 200px;
+    }
+
+    .info p {
+        font-size: 20px;
+    }
+
+    .info button {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:381px) {
+    body {
+        padding: 8px;
+    }
+
+    .box {
+        width: 95vw;
+        height: 95vw;
+    }
+
+    legend {
+        font-size: 28px;
+    }
+
+    .fieldset__elements {
+        height: 90px;
+    }
+
+    label {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    select {
+        height: 35px;
+        font-size: 13px;
+        border-radius: 8px;
+    }
+
+    button {
+        height: 37px;
+        font-size: 13px;
+        border-radius: 8px;
+    }
+
+}
+
+@media (max-width:340px) {
+    legend {
+        font-size: 26px;
+    }
+
+    .fieldset__elements {
+        height: 80px;
+    }
+
+    label {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    select {
+        height: 30px;
+        font-size: 12px;
+    }
+
+    button {
+        height: 32px;
+        font-size: 12px;
+    }
+
+    .info p {
+        font-size: 18px;
+    }
+
+    .info button {
+        font-size: 10px;
+        height: 35px;
+    }
+}

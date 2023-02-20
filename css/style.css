@@ -1,0 +1,231 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    background-image: url(../img/fon.jpg);
+}
+
+.box {
+    width: 90vw;
+    height: 90vw;
+
+    max-width: 580px;
+    max-height: 580px;
+
+    padding: 10px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+
+    background-color: #ffffffe5;
+    border-radius: 14px;
+    box-shadow: 0 0 15px #00000034;
+
+    z-index: 1;
+    position: relative;
+}
+
+.box__item {
+    border: 1px solid #00000044;
+    box-shadow: 0 0 5px #00000046;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    background-image: url(../img/back.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    transform-style: preserve-3d;
+}
+
+.flip {
+    transform: perspective(300px) rotateY(180deg);
+}
+
+.box__item img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: perspective(300px) rotateY(180deg);
+    backface-visibility: hidden;
+    transition: 0.4s;
+}
+
+.flip img {
+    transform: perspective(300px) rotateY(0deg);
+}
+
+audio {
+    width: 0;
+    position: absolute;
+}
+
+.menu {
+    background-color: #fffffffa;
+    box-shadow: 0 0 15px #00000034;
+    width: 510px;
+    height: 300px;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    transition: 0.4s;
+
+    padding: 0 0 11px 0;
+}
+
+fieldset {
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
+    border: 2px solid darkseagreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+legend {
+    font-size: 40px;
+    letter-spacing: 2px;
+    max-width: 70%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #6e916e;
+    /* background-color: crimson; */
+}
+
+.fieldset__elements {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+label {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+select {
+    width: 80%;
+    height: 45px;
+    border: 2px solid darkseagreen;
+    border-radius: 10px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 17px;
+    padding: 5px;
+}
+
+button {
+    background-color: darkseagreen;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    width: 80%;
+    transition: 0.2s;
+
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    transform: scale(105%);
+}
+
+.wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #0000003d;
+    z-index: 2;
+    top: 0;  
+    left: 0;
+    transition: 0.5s;
+}
+
+._hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.info {
+    background-color: #fffffffa;
+    box-shadow: 0 0 15px #00000034;
+    width: 510px;
+    height: 250px;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    z-index: 3;
+    transition: 0.4s;
+    padding: 20px 0;
+}
+
+.info-fieldset__elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.info p {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.info button {
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.time {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+
+    /* background-color: #6e916e;
+    position: absolute;
+    top: 0;
+    left: -120px;
+    background-color: #fffffffa;
+    border: 2px solid #6e916e; */
+
+    top: 0;
+    position: fixed;
+    background-color: #ffffffe5;
+    box-shadow: 0 0 15px #00000034;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.time p {
+    font-size: 20px;
+}
+
+.time span {
+    font-size: 45px;
+}
